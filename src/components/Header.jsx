@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Header = () => {
     return (
-        <div className='shadow-md fixed w-full z-999'>
+        <div className='shadow-md fixed w-full z-999 bg-white'>
             <div className='max-w-[1200px] mx-auto flex justify-between items-center py-[20px] '>
                 <div className='flex items-center gap-[20px]'>
                     <a href='#'>

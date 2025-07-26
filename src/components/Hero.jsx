@@ -4,7 +4,7 @@ import Image from '../assets/hero_img.png';
 
 const Hero = () => {
   return (
-    <div className="pt-[90px] max-w-[1220px] mx-auto">
+    <div className="pt-[90px] max-w-[1220px] mx-auto h-[100vh]">
       <div className="flex justify-between items-center">
         <div className="w-[695px]">
           <h1 className="text-[48px] font-semibold text-[48px]/[50px]">Продвижение во всех соцсетях за пару кликов</h1>
