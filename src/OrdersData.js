@@ -7,7 +7,7 @@ import Facebook from "./assets/facebook.png";
 import Twitter from "./assets/Twitter.png";
 import Twitch from "./assets/Twitch.png";
 import RuTube from "./assets/RuTube.png";
-import Male from "./assets/Male.png";
+import Male from "./assets/ale.png";
 import Like from "./assets/like.png";
 import Views from "./assets/views.png";
 import Comment from "./assets/comment.png";
