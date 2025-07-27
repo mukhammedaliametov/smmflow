@@ -1,4 +1,4 @@
-import Instagram from "./assets/Instagram.png";
+import Instagram from "./assets/instagram.png";
 import VK from "./assets/VK.png";
 import TikTok from "./assets/Tik_Tok.png";
 import Telegram from "./assets/Telegram.png";
