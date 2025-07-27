@@ -8,7 +8,7 @@ import Qiwi from "../assets/qiwi.png";
 const Footer = () => {
   return (
     <div className="bg-[#F8F8F9] mt-[100px]">
-    <div className="max-w-[1220px] mx-auto flex items-top justify-between gap-[20px] py-[40px]">
+    <div className="max-w-[1220px] mx-auto flex flex-col md:flex-row px-[25px] md:px-[0px] items-top justify-between gap-[20px] py-[40px]">
       <div className="flex flex-col gap-[15px] w-[350px]">
         <img src={Logo} alt="logo" className="w-[136px]" />
         <p className="text-[14px]">

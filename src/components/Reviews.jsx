@@ -34,10 +34,10 @@ const Reviews = () => {
   ];
   return (
     <>
-      <h2 className="text-center text-[32px] font-semibold py-[30px]">
+      <h2 className="text-center text-[22px] md:text-[32px] font-semibold py-[30px] ">
         Отзывы клиентов
       </h2>
-      <div className="my-[20px] flex items-center gap-[30px] overflow-x-auto overflow-y-hidden cursor-grab active:cursor-grabbing">
+      <div className="my-[20px] px-[20px] md:px-[0px] flex items-center overflow-x-scroll gap-[15px] md:gap-[30px] cursor-grab active:cursor-grabbing">
         {clients.map((item, index) => {
           return (
             <div
@@ -62,14 +62,14 @@ const Reviews = () => {
           );
         })}
       </div>
-      <div className="max-w-[1220px] mx-auto bg-[#0058FF] text-white flex items-center justify-between px-[130px] rounded-[40px] my-[70px]">
-        <div>
-            <h2 className="font-semibold text-[32px]">Скидки до 50% <br />в нашем телеграм-канале</h2>
-            <p className="text-[18px] mt-[10px] mb-[30px]">Раздаем промокоды в Telegram каждую неделю</p>
+      <div className="max-w-[1220px] relative overflow-hidden py-[30px] mx-auto bg-[#0058FF] text-white flex items-center justify-between px-[15px] md:px-[130px] rounded-0 md:rounded-[40px] my-[30px] md:my-[70px] ">
+        <div className="w-[140%]">
+            <h2 className="font-semibold text-[18px] md:text-[32px] w-full">Скидки до 50% <br />в нашем телеграм-канале</h2>
+            <p className="text-[15px] md:text-[18px] mt-[10px] mb-[30px]">Раздаем промокоды в Telegram каждую неделю</p>
             <Button name='Получить промокод' />
         </div>
         <div>
-            <img src={ReviewsImg} alt="reviews_img" className="w-[300px]" />
+            <img src={ReviewsImg} alt="reviews_img" className="w-[300px] ml-[20px] md:ml-0 relative top-[50px] right-[-10px]" />
         </div>
       </div>
     </>

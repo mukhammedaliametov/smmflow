@@ -1,6 +1,5 @@
 import React from "react";
 import down from "../assets/down.png";
-import top from "../assets/top.png";
 
 const Questions = () => {
     
@@ -46,13 +45,13 @@ const Questions = () => {
         "Мы предлагаем гарантию возврата денег на баланс в случае удаления подписчиков или лайков, а так же предоставляем гарантию от списаний по некоторым услугам в течение 1 месяца.",
     },
   ];
-  
+
   return (
     <div className="max-w-[1220px] mx-auto">
-      <h2 className="text-center text-[32px] font-semibold mb-[20px]">
+      <h2 className="text-center text-[22px] md:text-[32px] font-semibold mb-[20px]">
         Частые вопросы
       </h2>
-      <div className="grid grid-cols-2 gap-[20px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[20px] px-[20px]">
         {questionAnswer.map((item, index) => {
           return (
             <div
