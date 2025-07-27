@@ -9,7 +9,7 @@ import Twitch from "./assets/Twitch.png";
 import RuTube from "./assets/RuTube.png";
 import Male from "./assets/ale.png";
 import Like from "./assets/like.png";
-import Views from "./assets/views.png";
+import Views from "./assets/Views.png";
 import Comment from "./assets/comment.png";
 import Camera from "./assets/camera.png";
 import Growth from "./assets/growth.png";
