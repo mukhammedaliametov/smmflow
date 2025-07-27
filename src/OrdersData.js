@@ -3,7 +3,7 @@ import VK from "./assets/VK.png";
 import TikTok from "./assets/Tik_Tok.png";
 import Telegram from "./assets/Telegram.png";
 import YouTube from "./assets/YouTube.png";
-import Facebook from "./assets/Facebook.png";
+import Facebook from "./assets/facebook.png";
 import Twitter from "./assets/Twitter.png";
 import Twitch from "./assets/Twitch.png";
 import RuTube from "./assets/RuTube.png";
